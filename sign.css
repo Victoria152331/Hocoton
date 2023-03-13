@@ -1,0 +1,54 @@
+.login-container {
+   box-sizing: border-box;
+   background: #FFFFFF;
+    border: 2px solid #000000;
+    box-shadow: 0px 373px 149px rgba(0, 0, 0, 0.01), 0px 210px 126px rgba(0, 0, 0, 0.05), 0px 93px 93px rgba(0, 0, 0, 0.09), 0px 23px 51px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 29px;
+    position: absolute;
+    width: 846px;
+    height: 595px;
+    top: 100px;
+    margin-left: 20%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.pypy{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    justify-content: center
+}
+.form-group {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: flex-start;
+    color: #000000;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #000;
+}
+.pole{
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 17px;
+}
+.login-form
