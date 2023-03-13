@@ -7,17 +7,85 @@
 	line-height: 163px;
 	color: #000;
 }
+form{
+    border: 8px solid #000;
+    border-radius: 90px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 1000px;
+    height: 116px;
+    margin-left: 20%;
+    filter: drop-shadow(0px 443px 177px rgba(0, 0, 0, 0.01)) drop-shadow(0px 249px 150px rgba(0, 0, 0, 0.05)) drop-shadow(0px 111px 111px rgba(0, 0, 0, 0.09)) drop-shadow(0px 28px 61px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
+
+}
+.bebra2{
+    border: 8px solid #000;
+    border-radius: 90px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: absolute;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-left: 20%;
+    background-color: #fff;
+    width: 1000px;
+    height: 116px;  
+    filter: drop-shadow(0px 443px 177px rgba(0, 0, 0, 0.01)) drop-shadow(0px 249px 150px rgba(0, 0, 0, 0.05)) drop-shadow(0px 111px 111px rgba(0, 0, 0, 0.09)) drop-shadow(0px 28px 61px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
+}
+.form-control{
+    height: 100px;
+    width: 1000px;
+    border: 8px solid #000;
+    border-radius: 90px;
+}
 .double{
 	display: flex;
 	align-items: center;
+    margin-left: 24.8%;
+    margin-top: 10%; 
+}
+.double2{
+    display: flex;
+    align-items: center;
+    margin-left: 24.8%;
+    margin-top: 15%;
 }
 .op{
 	position: absolute;
-	height: 175px;
+	
+    color:  #000;
 	filter: drop-shadow(0px 443px 177px rgba(0, 0, 0, 0.01)) drop-shadow(0px 249px 150px rgba(0, 0, 0, 0.05)) drop-shadow(0px 111px 111px rgba(0, 0, 0, 0.09)) drop-shadow(0px 28px 61px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
 }
 .doubles{
 	box-sizing: border-box;
+    position: absolute;
+    width: 805px;
+ 
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    display: flex;
+    text-align: center;
+    color: #000;
+    border: 8px solid #000;
+    border-radius: 90px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.poisk2{
+    box-sizing: border-box;
     position: absolute;
     width: 805px;
     height: 160px;
