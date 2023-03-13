@@ -1,0 +1,37 @@
+.poisk{
+	text-align: center;
+	font-family: 'Segoe Ui';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 128px;
+	line-height: 163px;
+	color: #000;
+}
+.double{
+	display: flex;
+	align-items: center;
+}
+.op{
+	position: absolute;
+	height: 175px;
+	filter: drop-shadow(0px 443px 177px rgba(0, 0, 0, 0.01)) drop-shadow(0px 249px 150px rgba(0, 0, 0, 0.05)) drop-shadow(0px 111px 111px rgba(0, 0, 0, 0.09)) drop-shadow(0px 28px 61px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
+}
+.doubles{
+	box-sizing: border-box;
+    position: absolute;
+    width: 805px;
+    height: 160px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    display: flex;
+    text-align: center;
+    color: #000;
+    border: 8px solid #000;
+    border-radius: 90px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
