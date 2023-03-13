@@ -12,7 +12,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap;z
 }
 .pypy{
     font-family: Segoe UI;
