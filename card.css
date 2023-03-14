@@ -99,3 +99,44 @@ table {
     background: linear-gradient(top, rgba(168,168,168,1) 0%,rgba(204,204,204,1) 23%);
     position: relative;
 }
+.bebe{    box-sizing: border-box;
+
+    position: absolute;
+    width: 611px;
+    height: 217px;
+    left: calc(50% - 611px/2 - 10px);
+    top: calc(50% - 217px/2);
+
+    background: #FFFFFF;
+    border: 1px solid #67636C;
+    border-radius: 20px;
+}
+.lulu{
+    position: absolute;
+width: 570.67px;
+height: 31px;
+left: calc(50% - 570.67px/2 - 14.03px);
+top: calc(50% - 31px/2 - 89px);
+
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+color: #000000;
+
+}
+.mini{
+    box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 3px;
+}
