@@ -27,13 +27,13 @@ header img{
 	color: #000;
 }
 .bb{
-    position: fixed;
+    position: absolute;
     top: 25px;
     right: 25px;
     width: 5%;
 }
 .bb-hide{
-    position: fixed;
+    position: absolute;
     top: 25px;
     right: 25px;
     width: 5%;
@@ -101,9 +101,8 @@ table {
 }
 .bebe{
     box-sizing: border-box;
-    position: absolute;
-    width: 660px;
-    height: 260px;
+    width: 620px;
+    height: 230px;
     left: calc(50% - 611px/2 - 10px);
     top: calc(50% - 217px/2);
     display: none  ;
@@ -141,10 +140,56 @@ border-radius: 11px;
 }
 .bebra{
   position: absolute;
-  padding-right: 100px
-  padding-left: 100px;
+  padding-right: 100px;
   width: 600px;
   height: 8px;
   margin-top: 10%;
   margin-left: 5%;  
+}
+.text1{
+  position: absolute;
+  width: 765px;
+  height: 30px;
+  left: 43px;
+  top: 179px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  color: #000000;
+}
+.titi{
+    width: 80%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border: 1px solid #000000;
+    border-radius: 11px;
+}
+.butts{
+    box-sizing: border-box;
+    background: #CECBFA;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 430px;
+    width: 15%;
+    font-size: 400;
+    text-size-adjust: 20px;
+}
+.butts:focus{
+    box-sizing: BAEB7D;
+    background: #BAEB7D;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 430px;
+}
+.vibe{
+     box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background: #fff;
 }
