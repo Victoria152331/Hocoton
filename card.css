@@ -5,6 +5,14 @@ header{
 	top: 0px;
 	background: #B6B0F8;
 }
+header img{
+	position: absolute;
+	width: 160px;
+	height: 160px;
+	left: 800px;
+	top: -20px;
+}
+
 .title{
 	position: absolute;
 	width: 821px;
@@ -17,4 +25,77 @@ header{
 	font-size: 86px;
 	line-height: 128px;
 	color: #000;
+}
+.bb{
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    width: 5%;
+}
+.bb-hide{
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    width: 5%;
+}
+.wrapper-img:hover .bb-hide{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;   
+}
+.wrapper-img .bb-hide{    
+    opacity: 0;      
+}
+table {
+   width: 45%;
+   height: 50%;
+   margin-left: 53%;
+   margin-top: 5%;
+   border-collapse: collapse;
+   font-family: Arial, sans-serif;
+   font-size: 14px;
+   text-align: center;
+   border-radius: 100000000px;
+  }
+
+  th {
+   background-color: #BAEB7D;
+   border: 1px solid #aaa;
+   padding: 10px;
+   font-weight: bold;
+  }
+
+  td {
+   border: 1px solid #aaa;
+   padding: 10px;
+   background-color: #fff;
+  }
+
+  tr:nth-child(even) {
+   background-color: #fff;
+  }
+
+  tr:hover {
+   background-color: #BAEB7D;
+  }
+  tbody{
+   border-radius: 20px;
+  }
+  .butt{
+  	box-sizing: border-box;
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 5px;
+  }
+
+.graph {
+    width: 500px; 
+    height: 30px;
+    border: 1px solid #888; 
+    background: rgb(168,168,168);
+    background: -moz-linear-gradient(top, rgba(168,168,168,1) 0%, rgba(204,204,204,1) 23%);
+    background: -webkit-linear-gradient(top, rgba(168,168,168,1) 0%,rgba(204,204,204,1) 23%);
+    background: -o-linear-gradient(top, rgba(168,168,168,1) 0%,rgba(204,204,204,1) 23%);
+    background: -ms-linear-gradient(top, rgba(168,168,168,1) 0%,rgba(204,204,204,1) 23%);
+    background: linear-gradient(top, rgba(168,168,168,1) 0%,rgba(204,204,204,1) 23%);
+    position: relative;
 }
