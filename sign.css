@@ -58,8 +58,8 @@
     box-shadow: 0px 59px 24px rgba(0, 0, 0, 0.01), 0px 33px 20px rgba(0, 0, 0, 0.05), 0px 15px 15px rgba(0, 0, 0, 0.09), 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
     border-radius: 17px;
     position: fixed;
-    bottom: 150px;
-    left: 570px;
+    bottom: 35%;
+    left: 41%;
 }
 .btn:hover{
     background: #B6B0F8;
@@ -70,13 +70,13 @@
 }
 .login-form1{
     position: fixed;
-    top: 250px;
-    left: 350px;
+    top: 34%;
+    left: 27%;
 }
 .login-form2{
     position: fixed;
-    top: 250px;
-    right: 400px;
+    top: 34%;
+    right: 35%;
 }
 .bb{
     position: fixed;
