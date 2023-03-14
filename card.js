@@ -8,3 +8,11 @@ function Pu(){
 	popa.style.display = 'none'
 	document.getElementById('popa').innerHTML = 'Принято'
 }
+
+function DimaSamiyKrytoi(elen) {
+  elen.value="Выдано"
+}
+function ShowNones(){
+	vidat = document.getElementById('vibe')
+	vidat.style.display = 'block'
+}
