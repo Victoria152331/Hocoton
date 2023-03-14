@@ -8,24 +8,20 @@
 	color: #000;
 }
 form{
-    border: 8px solid #000;
     border-radius: 90px;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     width: 1000px;
     height: 116px;
-    margin-left: 20%;
     filter: drop-shadow(0px 443px 177px rgba(0, 0, 0, 0.01)) drop-shadow(0px 249px 150px rgba(0, 0, 0, 0.05)) drop-shadow(0px 111px 111px rgba(0, 0, 0, 0.09)) drop-shadow(0px 28px 61px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
-
 }
 .bebra2{
     border: 8px solid #000;
     border-radius: 90px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
     position: absolute;
+    margin-top: 8%;
+    justify-content: center;
     font-family: 'Segoe UI';
     font-style: normal;
     font-weight: 400;
@@ -115,4 +111,57 @@ form{
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
+}
+.login-form1{
+    position: absolute;
+    top: 23%;
+    left: 22%;
+}
+label{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    text-align: center;
+    color: #000;
+    margin-bottom: 7px;
+    margin-right: 30px;
+}
+.pole{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 125px;
+}
+.btns{
+    box-sizing: border-box;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    border: 10px solid #FFFFFF;
+    box-shadow: 0px 128px 51px rgba(4, 0, 51, 0.01), 0px 72px 43px rgba(4, 0, 51, 0.05), 0px 32px 32px rgba(4, 0, 51, 0.09), 0px 8px 18px rgba(4, 0, 51, 0.1), 0px 0px 0px rgba(4, 0, 51, 0.1);
+    background: #CDC9FF;
+    border-radius: 85px;
+    font-size: 60px;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btns:hover{
+    box-sizing: border-box;
+    background: #B6B0F8;
+    border: 10px solid #FFFFFF;
+    border-radius: 85px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 128px 51px rgba(4, 0, 51, 0.01), 0px 72px 43px rgba(4, 0, 51, 0.05), 0px 32px 32px rgba(4, 0, 51, 0.09), 0px 8px 18px rgba(4, 0, 51, 0.1), 0px 0px 0px rgba(4, 0, 51, 0.1);
 }
