@@ -29,9 +29,9 @@
       <label for="gsearch"></label>
       <input type="search" id="gsearch" name="gsearch" class="titi">
    </form>
-        <input type="button" class="butts" value="Выдать" onclick="DimaSamiyKrytoi(this)" id="vidat" onclick="ShowNones()"></input>
+        <input type="button" class="butts" value="Выдать" onclick="DimaSamiyKrytoi(this)" id="vidat"></input>
 </div>
-<div class="vibe" id="vibe">
+<div class="vibe" id="vibe" style='display: none;'>
 	<p>Введите фамилию выдающего</p>
 	 <form >
       <label for="gsearch"></label>
@@ -46,11 +46,11 @@
    <th>Возврат книги</th>
    <th>Выдана</th>
   </tr>
-  <tr>
+  <tr id='' style='display: none;'>
    <td>00.00</td>
    <td>00.00</td>
    <td>Война и мир, Лев Толстой</td>
-   <td><button class="butt" onclick="Tututu()">Принять</button></td>
+   <td><button class="butt" onclick="ShowNone()">Принять</button></td>
    <td>Ларченко</td>
   </tr>
   <tr>
@@ -64,21 +64,21 @@
    <td>00.00</td>
    <td>00.00</td>
    <td>1984, Джордж Оруэлл</td>
-   <td><button class="butt">Принять</button></td>
+   <td><button class="butt" onclick="ShowNone()">Принять</button></td>
    <td>Игнатьева</td>
   </tr>
   <tr>
    <td>00.00</td>
    <td>00.00</td>
    <td>Мастер и Маргарита, Михаил Булгаков</td>
-   <td><button class="butt">Принять</button></td>
+   <td><button class="butt" onclick="ShowNone()">Принять</button></td>
    <td>Ларченко</td>
   </tr>
   <tr>
    <td>00.00</td>
    <td>00.00</td>
-   <td>Анна Каренина, Лев Толсто</td>
-   <td><button class="butt">Принять</button></td>
+   <td>Анна Каренина, Лев Толстой</td>
+   <td><button class="butt" onclick="ShowNone()">Принять</button></td>
    <td>Иванов</td>
   </tr>
  </table>
@@ -89,6 +89,15 @@
    <th style=" background-color: #8D60BA">Книга, автор</th>
    <th style=" background-color: #8D60BA">Статус</th>
    <th style=" background-color: #8D60BA">Выдана</th>
+  </tr>
+  <tr style='display: none;'>
+    <div id='Kniga' style='display: none;'>
+   <td>00.00</td>
+   <td>00.00</td>
+   <td>Война и мир, Лев Толстой</td>
+   <td><button class="butt" >Принято</button></td>
+   <td>Ларченко</td>
+    </div>
   </tr>
   <tr>
    <td>00.00</td>
