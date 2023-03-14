@@ -99,17 +99,18 @@ table {
     background: linear-gradient(top, rgba(168,168,168,1) 0%,rgba(204,204,204,1) 23%);
     position: relative;
 }
-.bebe{    box-sizing: border-box;
-
+.bebe{
+    box-sizing: border-box;
     position: absolute;
-    width: 611px;
-    height: 217px;
+    width: 660px;
+    height: 260px;
     left: calc(50% - 611px/2 - 10px);
     top: calc(50% - 217px/2);
-
+    display: none  ;
     background: #FFFFFF;
     border: 1px solid #67636C;
     border-radius: 20px;
+    position: fixed;
 }
 .lulu{
     position: absolute;
@@ -128,15 +129,22 @@ color: #000000;
 
 }
 .mini{
-    box-sizing: border-box;
-
+box-sizing: border-box;
 position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-background: #FFFFFF;
+width: 103px;
+height: 28px;
+left: 448px;
+top: 180px;
+background: #B6B0F8;
 border: 1px solid #000000;
-border-radius: 3px;
+border-radius: 11px;
+}
+.bebra{
+  position: absolute;
+  padding-right: 100px
+  padding-left: 100px;
+  width: 600px;
+  height: 8px;
+  margin-top: 10%;
+  margin-left: 5%;  
 }
