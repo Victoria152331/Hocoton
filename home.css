@@ -41,11 +41,24 @@ form{
     height: 116px;  
     filter: drop-shadow(0px 443px 177px rgba(0, 0, 0, 0.01)) drop-shadow(0px 249px 150px rgba(0, 0, 0, 0.05)) drop-shadow(0px 111px 111px rgba(0, 0, 0, 0.09)) drop-shadow(0px 28px 61px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
 }
-.form-control{
+.form-control-{
     height: 100px;
-    width: 1000px;
-    border: 8px solid #000;
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    background-color: var(--bs-form-control-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     border-radius: 90px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 985px;
+    border: 1px solid #000;
 }
 .double{
 	display: flex;
