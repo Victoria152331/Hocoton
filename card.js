@@ -1,7 +1,6 @@
 function ShowNone(){
 	popa = document.getElementById('bebe')
 	popa.style.display = 'block'
-
 }
 function Pu(){
 	popa = document.getElementById('bebe')
@@ -11,8 +10,10 @@ function Pu(){
 
 function DimaSamiyKrytoi(elen) {
   elen.value="Выдано"
+  AddKniga()
 }
-function ShowNones(){
-	vidat = document.getElementById('vibe')
-	vidat.style.display = 'block'
+function AddKniga() {
+	Kniga = document.getElementById('Kniga')
+	prompt('Фамилия выдающего')
+	Kniga.style.display = 'block'
 }

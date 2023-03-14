@@ -12,7 +12,9 @@ header img{
 	left: 800px;
 	top: -20px;
 }
-
+body {
+    background-color: #CECBFA;
+}
 .title{
 	position: absolute;
 	width: 821px;
